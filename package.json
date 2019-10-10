@@ -4,6 +4,7 @@
   "private": true,
   "description": "Angular2 based replacement for select boxes",
   "scripts": {
+    "prepare": "npm run build",
     "lite-server": "lite-server -c demo/bs-config.json",
     "demo.serve": "run-s build link demo.build lite-server",
     "demo.gh-pages": "run-s build demo.build demo.deploy",
